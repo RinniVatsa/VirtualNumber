@@ -1,6 +1,70 @@
 .App {
   text-align: center;
 }
+/* src/App.css */
+/* src/App.css */
+
+body {
+  padding-top: 20px;
+}
+
+.navbar {
+  justify-content: flex-start;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+
+.sidebar {
+  min-height: 100vh;
+  border-right: 1px solid #60affe;
+}
+
+.card {
+  width: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+.col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+/* src/App.css */
+
+/* Basic header styles */
+.animated-header {
+  background-color: #9b6d6d;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Slide down animation */
+.animated-header.open {
+  transform: translateY(100%);
+}
+
+
 
 .App-logo {
   height: 40vmin;
